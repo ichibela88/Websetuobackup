@@ -1,0 +1,132 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-setting: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.carousel-container{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.carousel-item{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0;
+	top: 0;
+}
+.rotating-image{
+	opacity: 0;
+	transition: opacity 3s easeInOutCybic;
+}
+.rotating-image.active{
+	opacity: 3;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    color: black;
+    width: 80%;
+}
+
+.header h1{
+	font-family: 'open sans'; /*this is a comment*/
+	font-size: 75px;
+	font-style: medium;
+	color:black;
+	text-align: center;
+	
+
+}
+
+.secondheader h2{
+	font-family: 'open sans';
+	font-size: 45px;
+	color: black;
+	font-style:  medium;
+	text-align: center
+	
+}
+
+#header-1 {
+	margin-top: 190px;
+	margin-left: 50px;
+	width: auto;
+	vertical-align: top;
+}
+
+#header-2 {
+	width: auto;
+	margin-left: 50px;
+}
+
+.paragraph{
+	width: auto;
+	margin-left: 5%;
+	padding: 80px;
+	text-align: center;
+}
+.paragraph p{
+	font-family: 'open sans';
+	font-size: 22px;
+	font-style:  medium;
+	line-height: 45px;
+	color:black;
+	text-align: center;
+	
+
+}
+
+#content {
+	margin-top: 500px;
+	position: absolute;
+}
+
+.line {
+	width: 90%;
+	background-color: black;
+	height: 4px;
+	margin-top: 10px;
+}
+
+.seg{
+	margin-left: 8%;
+}
+
+.black-box {
+    width: 320px;
+    padding: 20px;
+    background-color: black;
+    margin: 0; 
+    height: 75px;
+    margin-left: 36%;
+}
+
+.black-box h1{
+	font-family: 'Avenir', helvetica;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding-bottom: 40px
+
+}
+
+p {
+	font-family: 'open sans';
+	font-size: 22px;
+	font-style:  medium;
+	line-height: 45px;
+	color:black;
+	text-align: left;
+}
+
+#text-right {
+	text-align: right
+}
